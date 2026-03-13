@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorSurface">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/topAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:menu="@menu/top_app_bar"
+            app:navigationIcon="@drawable/baseline_arrow_back_24"
+            app:navigationIconTint="?attr/colorOnSurface"
+            app:titleCentered="true"
+            app:titleTextColor="?attr/colorOnSurface"
+            tools:title="KW 09" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="8dp"
+            android:paddingBottom="16dp">
+
+            <include
+                android:id="@+id/day_mo"
+                layout="@layout/item_day" />
+
+            <include
+                android:id="@+id/day_di"
+                layout="@layout/item_day" />
+
+            <include
+                android:id="@+id/day_mi"
+                layout="@layout/item_day" />
+
+            <include
+                android:id="@+id/day_do"
+                layout="@layout/item_day" />
+
+            <include
+                android:id="@+id/day_fr"
+                layout="@layout/item_day" />
+
+            <include
+                android:id="@+id/day_sa"
+                layout="@layout/item_day" />
+
+            <include
+                android:id="@+id/day_so"
+                layout="@layout/item_day" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

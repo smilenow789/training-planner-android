@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/next_week"
+        android:icon="@drawable/outline_arrow_forward_24"
+        android:title="@string/next_week"
+        app:iconTint="?attr/colorOnSurface"
+        app:showAsAction="always" />
+</menu>

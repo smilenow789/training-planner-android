@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Trainings App</string>
+
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="metric">Metrik</string>
+    <string name="target">Soll</string>
+    <string name="actual">Ist</string>
+    <string name="notes">Notizen</string>
+    <string name="duration_min">Dauer (min)</string>
+    <string name="distance_km">Distanz (km)</string>
+    <string name="pace">Pace</string>
+    <string name="avg_hr">⌀ Heart Rate</string>
+    <string name="max_hr">Max Heart Rate</string>
+    <string name="rpe">RPE (0-10)</string>
+    <string name="notes_general_hint">Allgemeine Notizen</string>
+
+    <string name="cardio_title">Ausdauer Details</string>
+    <string name="name_hint_cardio">Name (z.B. Schwimmen)</string>
+    <string name="warmup_hint">Warm-up (z.B. 100m locker)</string>
+    <string name="main_hint">Main (z.B. 10x100m schnell)</string>
+    <string name="cooldown_hint">Cool-down (z.B. 100m locker)</string>
+
+    <string name="cycleball_title">Radball Details</string>
+    <string name="cycleball_name_hint">Name (z.B. Radball-Training)</string>
+    <string name="games_count">Spiele (Anzahl)</string>
+    <string name="notes_cycleball_hint">Notizen (z.B. Starkes Zusammenspiel!)</string>
+
+    <string name="day_overview_title">Tagesübersicht</string>
+    <string name="day_notes_hint">Notizen (z.B. Schlafqualität)</string>
+    <string name="planned_exercises">Geplante Einheiten</string>
+    <string name="fab_add_exercise_desc">Neue Trainingseinheit hinzufügen</string>
+
+    <string name="zero_hint">0</string>
+    <string name="zero_decimal_hint">0.0</string>
+
+    <string name="status_planned">Geplant</string>
+    <string name="btn_delete">Löschen</string>
+    <string name="btn_open">Öffnen</string>
+    <string name="strength_title">Krafttraining Details</string>
+    <string name="strength_name_hint">Name (z.B. Krafttraining)</string>
+    <string name="rpe_overall">RPE (0-10) der gesamten Einheit:</string>
+    <string name="notes_strength_hint">Allgemeine Notizen zum Krafttraining</string>
+    <string name="next_week">Nächste Woche</string>
+
+    <string name="exercise_name_hint">Übungsname (z.B. Squat)</string>
+    <string name="target_sets_label">Ziel:</string>
+    <string name="sets_label">Sätze</string>
+    <string name="unit_kg">kg</string>
+    <string name="unit_reps">wdh</string>
+    <string name="unit_rir">RIR</string>
+    <string name="btn_remove_set">- Satz</string>
+    <string name="btn_add_set">+ Satz</string>
+
+
+    <string name="new_strength">Neues Krafttraining</string>
+    <string name="new_swimming">Neues Schwimmen</string>
+    <string name="new_running">Neuer Lauf</string>
+    <string name="new_cycling">Neue Radtour</string>
+    <string name="new_cycleball">Neues Radball-Training</string>
+
+    <string name="status_active">Aktiv</string>
+    <string name="status_completed">Erledigt</string>
+    <string name="status_skipped">Übersprungen</string>
+    <string name="choose_status">Status wählen</string>
+
+    <string name="dialog_add_exercise_title">Welche Übung möchtest du hinzufügen?</string>
+    <string name="exercise_type_strength">Krafttraining</string>
+    <string name="exercise_type_swimming">Schwimmen</string>
+    <string name="exercise_type_running">Laufen</string>
+    <string name="exercise_type_cycling">Radfahren</string>
+    <string name="exercise_type_cycleball">Radball</string>
+    <string name="exercise_added">%s hinzugefügt!</string>
+
+    <string name="dialog_copy_week_title">Trainingsplan kopieren?</string>
+    <string name="btn_copy">Kopieren</string>
+    <string name="btn_cancel">Abbrechen</string>
+
+
+    <string name="msg_saved">Gespeichert</string>
+    <string name="msg_week_copied">Vorwoche erfolgreich kopiert!</string>
+    <string name="msg_week_copy_failed">Vorwoche konnte nicht kopiert werden!</string>
+
+
+    <string name="dialog_copy_week_msg">Diese Woche ist noch leer. Möchtest du den Plan aus der Vorwoche übernehmen? (Nur geplante Werte werden kopiert)</string>
+
+    <string name="pace_label_swim">Pace (min/100m)</string>
+    <string name="pace_label_run">Pace (min/1km)</string>
+    <string name="pace_label_bike">Geschw. (km/h)</string>
+
+    <string name="kw_format">KW %d, %d</string>
+
+
+</resources>
