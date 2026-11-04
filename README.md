@@ -66,11 +66,6 @@ Organisiert wurde das Projekt mit Scrum und einem Kanban-Board, mit flexibler Sp
 | Unit-Tests (JVM) | `ExerciseDetailTest`, `NumberUtilsTest` | Sätze hinzufügen und entfernen, Zahlen-Parsing mit Fallback |
 | Instrumentiert (Gerät oder Emulator) | `DataManagerTest`, `NavigationAndUiTest` | Wochenkopie ohne Ist-Werte, Speichern und Laden der Unterklassen, defektes JSON, Navigation |
 
-```bash
-./gradlew testDebugUnitTest          # Unit-Tests
-./gradlew connectedDebugAndroidTest  # braucht Emulator oder Gerät
-```
-
 Bei jedem Push baut GitHub Actions die App und führt die Unit-Tests aus
 (`.github/workflows/ci.yml`).
 
